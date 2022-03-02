@@ -1,3 +1,4 @@
-h1 {
-    color: blue;
+:root {
+    --main-color-one: rgb(11,23,41);
+    --main-color-two: rgb(6,20,30);
 }
