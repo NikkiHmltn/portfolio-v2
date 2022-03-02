@@ -4,24 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
     <link rel="stylesheet" href="styles.css">
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+        crossorigin="anonymous">
+    </script>
     <title>Nicole Hamilton</title>
 </head>
 <body>
     <nav>
-        <a>Home</a>
-        <a>About</a>
-        <a>Portfoliio</a>
-        <a>Current Projects</a>
-        <a>Contact</a>
+        <div class="nav-container space">
+            <div>
+                <h1>Nicole Hamilton</h1>
+            </div>
+            <div>
+                <a>Home</a>
+                <a>About</a>
+                <a>Portfoliio</a>
+                <a>Current Projects</a>
+                <a>Contact</a>
+            </div>
+        </div>
     </nav>
+    <section class="space">
+        <h1>Hi there,</h1>
+        <h1>I am a Software Engineer</h1>
+        <h1>NICE TO MEET YOU!</h1>
+    </section>
     <section>
         <!-- make this a flex box -->
         <div>
             <div>
-                <h1>About Me</h1>
-                <h5>Frontend Skills</h5> 
+                <h1 class="space">About Me</h1>
+                <h5 class="open">Frontend Skills</h5> 
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -31,7 +48,7 @@
                     <li>Bootstrap</li>
                     <li>EJS</li>
                 </ul>
-                <h5>Backend Skills</h5>
+                <h5 class="open">Backend Skills</h5>
                 <ul>
                     <li>MVCR</li>
                     <li>API</li>
@@ -49,12 +66,12 @@
                <h1>PHOTO HERE</h1>
            </div>
            <div>
-               <div>
+               <div class="space">
                 <h2>Who I Am</h2>
                 <h1>Nicole Hamilton</h1>
                </div>
                <div>
-                   <h4>Software Engineer</h4>
+                   <h4 class="space">Software Engineer</h4>
                    <Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                    sed diam nonummy nibh euismod tincidunt ut laoreet
                    dolore magna aliquam erat volutpat. Ut wisi enim ad minim
@@ -70,16 +87,16 @@
                    dolore magna aliquam erat volutpat.></Lorem>
                </div>
                <div>
-                   <h3>Follow Me: github, linked in</h3>
-                   <button>Download Resumé</button>
+                   <h3 class="space">Follow Me: github, linked in</h3>
+                   <button class="open">Download Resumé</button>
                </div>
            </div>
         </div>
     </section>
     <section>
         <div>
-            <h1>Portfolio</h1>
-            <div>
+            <h1 class="space">Portfolio</h1>
+            <div class="open">
                 <button>ALL</button>
                 <button>ReactJS</button>
                 <button>Javascript</button>
@@ -97,9 +114,9 @@
     </section>
     <section>
         <div>
-            <h1>Current Project</h1>
+            <h1 class="space">Current Project</h1>
         </div>
-        <div>
+        <div class="open">
             <!-- card -->
             <div>
                 <!-- circle foto here -->
@@ -116,7 +133,7 @@
                 </Lorem>
             </div>
         </div>
-        <div>
+        <div class="open">
             <!-- card -->
             <div>
                 <!-- circle foto here -->
@@ -133,7 +150,7 @@
                 </Lorem>
             </div>
         </div>
-        <div>
+        <div class="open">
             <!-- card -->
             <div>
                 <!-- circle foto here -->
@@ -150,7 +167,7 @@
                 </Lorem>
             </div>
         </div>
-        <div>
+        <div class="open">
             <!-- card -->
             <div>
                 <!-- circle foto here -->
@@ -167,7 +184,7 @@
                 </Lorem>
             </div>
         </div>
-        <div>
+        <div class="open">
             <!-- card -->
             <div>
                 <!-- circle foto here -->
@@ -187,9 +204,9 @@
     </section>
     <section>
         <div>
-            <h1>Contact</h1>
+            <h1 class="space">Contact</h1>
             <div>
-                <form>
+                <form class="open">
                     <input placeholder="name">
                     <input placeholder="email">
                     <input placeholder="subject">
@@ -201,7 +218,7 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="space">
         <h1>Nicole Hamilton</h1>
         <div>
             <!-- linked in github icons here -->

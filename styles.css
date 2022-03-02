@@ -1,4 +1,38 @@
+/* Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* 'Space Mono' */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Global vars */
 :root {
-    --main-color-one: rgb(11,23,41);
-    --main-color-two: rgb(6,20,30);
+    --wave-color-one: rgb(11,23,41);
+    --wave-color-two: rgb(6,20,30);
+    --accent-color: rgb(242, 51, 77);
 }
+
+.space {
+    font-family: 'Space Mono', monospace;
+}
+
+.open {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Nav */
+
+.fixed-nav {
+    position: fixed;
+    padding-top: 0;
+    width: 100%;
+}
+
+/* About Me */
+/* About Me Skills */
+/* Selfie */
+/* Who I Am */
+/* Portfolio */
+/* portfolio buttons */
+/* Portfolio Projects */
+/* Contact Form */
+/* Footer */
