@@ -32,6 +32,19 @@ section {
     font-family: 'Open Sans', sans-serif;
 }
 
+input[type=button] {
+    background-color: transparent;
+    border: 2px solid var(--accent-color);
+    border-radius: 25px;
+    color: white;
+    margin: 1%;
+    padding: 4%;
+}
+
+input[type=button]:hover {
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
 
 /* Nav */
 
@@ -104,31 +117,31 @@ nav {
     margin: 0;
 }
 
+#intro-btns {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-btns > input {
+    padding: 10%;
+    margin: 3%;
+}
+
 /* About Me */
 
 .about-me-container {
-    margin-top:0;
     background-color: var(--wave-color-one);
 }
 
 .about-me-info {  
     max-width: 80%;
     margin: auto;
-    padding: 1rem;
+    padding: 6rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.about-skills {
-    max-width: 30%;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.about-desc {
-    width: 60%;
 }
 
 #about-title {
@@ -136,6 +149,14 @@ nav {
     margin-bottom:0;
 }
 
+/* About Me Skills */
+
+.about-skills {
+    max-width: 30%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
 
 ul {
     margin-top: 0;
@@ -156,9 +177,16 @@ li::before {
     color: var(--accent-color);
 }
 
+/* Selfie */
 
 #selfie {
     padding: 1em;
+}
+
+/* Who I Am */
+
+.about-desc {
+    width: 60%;
 }
 
 #who-am-i {
@@ -183,19 +211,45 @@ li::before {
     color: var(--accent-color);
 }
 
-.connections > a > input[type=button] {
-    background-color: var(--wave-color-one);
-    border: 2px solid var(--accent-color);
-    border-radius: 25px;
-    color: white;
-    margin: 1%;
-    padding: 4%;
+/* Portfolio */
+
+.portfolio-container {
+    background-color: var(--wave-color-two);
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* About Me Skills */
-/* Selfie */
-/* Who I Am */
-/* Portfolio */
+.portfolio-info {
+    margin: 2rem 5rem 5rem 5rem;
+}
+
+.portfolio-info > h1 {
+    font-size: 35px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#project-btns > input {
+    padding: 1%;
+    font-size: 11px;
+}
+
+.project-list > div {
+    background-color: gray;
+    padding: 100px;
+    margin: 1%;
+}
+
 /* portfolio buttons */
 /* Portfolio Projects */
 /* Contact Form */
