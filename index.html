@@ -14,56 +14,66 @@
     <title>Nicole Hamilton</title>
 </head>
 <body>
-    <nav>
-        <div class="nav-container space">
-            <div>
-                <h1>Nicole Hamilton</h1>
+    <section class="space intro">
+        <nav>
+            <div class="nav-container space">
+                <div>
+                    <h1 id="nicole">Nicole Hamilton</h1>
+                </div>
+                <div class="nav-links">
+                    <a>Home</a>
+                    <a>About</a>
+                    <a>Portfoliio</a>
+                    <a>Current&nbspProjects</a>
+                    <a>Contact</a>
+                </div>
             </div>
-            <div>
-                <a>Home</a>
-                <a>About</a>
-                <a>Portfoliio</a>
-                <a>Current Projects</a>
-                <a>Contact</a>
-            </div>
+        </nav>
+        <div class="hello-there">
+            <h1 id="hi">Hi there,</h1>
+            <h1 id="me">I am <span id="i-am">a Software Engineer</span></h1>
+            <h3 id="nice-to">NICE TO MEET YOU!</h3>
         </div>
-    </nav>
-    <section class="space">
-        <h1>Hi there,</h1>
-        <h1>I am a Software Engineer</h1>
-        <h1>NICE TO MEET YOU!</h1>
+        
     </section>
-    <section>
+    <section class="about-me-container">
         <!-- make this a flex box -->
-        <div>
-            <div>
-                <h1 class="space">About Me</h1>
-                <h5 class="open">Frontend Skills</h5> 
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>ReactJS</li>
-                    <li>Materialize</li>
-                    <li>Bootstrap</li>
-                    <li>EJS</li>
-                </ul>
-                <h5 class="open">Backend Skills</h5>
-                <ul>
-                    <li>MVCR</li>
-                    <li>API</li>
-                    <li>Git</li>
-                    <li>CRUD</li>
-                    <li>Django</li>
-                    <li>PostgreSQL</li>
-                    <li>MongoDB Atlas</li>
-                    <li>Python</li>
-                    <li>Mongoose</li>
-                    <li>NodeJS</li>
-                </ul>
+        <div class="about-me-info">
+            <div class="about-skills">
+                <div>
+                    <h1 class="space" id="about-title">About<br> Me</h1>
+                </div>
+                <div id="skill-list">
+                    <h4 class="open">Frontend Skills</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>ReactJS</li>
+                        <li>Materialize</li>
+                        <li>Bootstrap</li>
+                        <li>EJS</li>
+                    </ul>
+                </div> 
+                <div id="skill-list">
+                    <h4 class="open">Backend Skills</h4>
+                    <ul>
+                        <li>MVCR</li>
+                        <li>API</li>
+                        <li>Git</li>
+                        <li>CRUD</li>
+                        <li>Django</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB Atlas</li>
+                        <li>Python</li>
+                        <li>Mongoose</li>
+                        <li>NodeJS</li>
+                    </ul>
+                </div>
+                
             </div>
-           <div>
-               <h1>PHOTO HERE</h1>
+           <div id="selfie">
+               <img src="./assets/imgs/nikki_duotone_full.jpg" alt="photo of resume's owner Nicole Hamilton in pink tone smiling at camera" height=420">
            </div>
            <div>
                <div class="space">
@@ -92,6 +102,7 @@
                </div>
            </div>
         </div>
+        
     </section>
     <section>
         <div>
