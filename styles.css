@@ -291,4 +291,38 @@ li::before {
 }
 
 /* Contact Form */
+
+.contact-container {
+    background-color: var(--wave-color-two);
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer */
+
+footer {
+    background-color: var(--wave-color-one);
+    margin-top: 0;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer > h1 {
+    margin: 1rem;
+    font-size: 30px;
+}
+
+#footer-icon-gh {
+    background-color: var(--accent-color);
+    background-image: url('./assets/icons/github-sign.svg');
+}
+
+#footer-icon-li {
+    background-color: var(--accent-color);
+    background-image: url('./assets/icons/linkedin-logo.svg');
+}
