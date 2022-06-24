@@ -230,6 +230,15 @@ li::before {
     font-size: 35px;
 }
 
+/* portfolio buttons */
+
+#project-btns > input {
+    padding: 1%;
+    font-size: 11px;
+}
+
+/* Portfolio Projects */
+
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -239,18 +248,47 @@ li::before {
     justify-content: center;
 }
 
-#project-btns > input {
-    padding: 1%;
-    font-size: 11px;
-}
-
 .project-list > div {
     background-color: gray;
     padding: 100px;
     margin: 1%;
 }
 
-/* portfolio buttons */
-/* Portfolio Projects */
+/* Current Projects */
+
+.current-projects-container {
+    background-color: var(--wave-color-one);
+    margin-top: 0;
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.project-card {
+    font-size: 15px;
+}
+
+.project-cards > div {
+    background-color: var(--wave-color-two);
+    padding: 1rem;
+    width: 200px;
+    margin: 1rem;
+}
+
+#current-title {
+    font-size: 40px;
+}
+
 /* Contact Form */
 /* Footer */
