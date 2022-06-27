@@ -74,6 +74,15 @@ nav {
     padding: 2%;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    color: var(--accent-color);
+}
+
 
 /* Intro Section  */
 
@@ -147,6 +156,7 @@ nav {
 #about-title {
     font-size: 35px;
     margin-bottom:0;
+    line-height: 0.9;
 }
 
 /* About Me Skills */
@@ -192,6 +202,7 @@ li::before {
 #who-am-i {
     padding: 0;
     margin: 0;
+    line-height: 0.9;
 }
 
 #who-am-i > h2 {

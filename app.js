@@ -1,12 +1,9 @@
 $(document).ready(()=> {
     $(window).scroll(() => {
-        if(window.scrollY > 300) {
+        if(window.scrollY > 100) {
             $(".nav-container").addClass("fixed-nav")
-            navbar_height = $("nav").offsetHeight
-            $(document).css("padding-top", `${navbar_height} px`)
-        } else {
+                    } else {
             $(".nav-container").removeClass("fixed-nav")
-            $(document).css("padding-top", 0)
         }
     })
 })
